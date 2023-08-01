@@ -6,10 +6,10 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Jeongmin Lee
+name: 이정민
 title: iOS Developer
 email: lj845854@gmail.com
-website: https://github.com/jjpush
+website: https://github.com/corpiii
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -32,7 +32,7 @@ github_username: corpiii
 # Additional icon links
 additional_links:
 - title: tistory
-  icon: fa-t
+  icon: fas fa-globe
   url: https://corpi.tistory.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -48,20 +48,28 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요, 저는 이정민이고 iOS 개발자입니다. iOS 앱을 만들어 사람들에게 도움이 되고자 노력하고 있습니다.
+  안녕하세요, 저는 <strong>이정민</strong>이고 iOS 개발자입니다.
+  <br/>
+  모바일 앱을 통해 사람들에게 도움이 되고자 노력하고 있습니다.
 
-  skills: <mark>UIKit</mark>, <mark>MVVM</mark>, <mark>REST API</mark>, <mark>RxSwift</mark>, <mark>Clean Architecture</mark>
+  <br/>
+  <strong>Skills:</strong> 
+  <br/>
+  <mark class="blue">UIKit</mark> <mark class="green">MVVM</mark> <mark class="green">MVC</mark> <mark class="orange">RxSwift</mark>
+  <br/>
+  <mark class="darkgreen">REST API</mark> <mark class="darkgreen">Coordinator</mark> <mark>Clean Architecture</mark> <mark>Core Data</mark>
   
-  hobbys: 피자 시켜먹기, 앱스토어 랭킹 뒤져보기
+  
+  <strong>Hobbies:</strong> 앱스토어 랭킹 뒤져보기, 동료와 최신동향 얘기하기, 피자 먹기
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Tempus
-        link: github.com/sproogen
-        # link_text: Project Website
+      - layout: top-left
+        title: <img src="images/tempus_80.png"></img> <br/><br/> Tempus
+        link: github.com/corpiii/Tempus
+        link_text: Tempus github
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
@@ -69,65 +77,184 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # quote: This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      - layout: top-middle
-        title: AI ImageMaker
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          <span style="font-size: 1.2em; font-weight: bold; font-family: Helvetica, Arial, sans-serif;">하루를 시간표처럼 분리해서 지정한 시간에 알림을 울려주는 타이머 앱</span>
+          <br/><br/>
 
+          <strong>개발기간:</strong> 2023.03 ~ 2023.06 (4개월)
+          <br/>
+          <strong>개발인원:</strong> 1인
+          <br/>
+          <strong>사용한 기술:</strong> <mark class="blue">UIKit</mark> <mark class="green">MVVM</mark> <mark class="darkgreen">Coordinator</mark> <mark class="orange">RxSwift</mark> <mark>Clean Architecture</mark> 
+          <mark class="blue">Core Data</mark>
+          <br/>
+          <strong>출시여부:</strong> ✅
+          <br/>
+          <strong>github:</strong> <a href="https://github.com/corpiii/Tempus">Tempus github</a>
+          <br/>
+          <strong>blog:</strong> <a href="https://www.notion.so/Tempus-5a708a04d5bc48b2a63ba0d4073f9801?pvs=4">Tempus 개발 노트</a>
+          
+          <style>
+          .mark-highlight {
+            padding: 0.2em;
+            color: white;
+            font-weight: bold;
+          }
+
+          .yellow {
+            background-color: yellow;
+          }
+
+          .orange {
+            background-color: orange;
+          }
+          .green {
+            background-color: lightgreen;
+          }
+
+          .darkgreen {
+            background-color: darkgreen;
+          }
+
+          .blue {
+            background-color: lightblue;
+          }
+
+          .red {
+            background-color: lightcoral;
+          }
+          </style>
+
+      - layout: top-left
+        title: <img src="images/imageMaker_80.png"></img> <br/><br/> AI ImageMaker
+        link: github.com/corpiii/ImageMaker
+        link_text: ImageMaker github
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          <span style="font-size: 1.2em; font-weight: bold; font-family: Helvetica, Arial, sans-serif;">Karlo API를 통한 AI 이미지 생성기</span>
+          <br/><br/>
+
+          <strong>개발기간:</strong> 2023.07.29 ~ 2023.07.30
+          <br/>
+          <strong>개발인원:</strong> 1인
+          <br/>
+          <strong>사용한 기술:</strong> <mark class="blue">UIKit</mark>, <mark class="green">MVC</mark>, <mark class="darkgreen">REST API</mark>
+          <br/>
+          <strong>출시여부:</strong> ✅
+          <br/>
+          <strong>github:</strong> <a href="https://github.com/corpiii/ImageMaker">ImageMaker</a>
+          <br/>
+          <strong>blog:</strong> <a href="https://thin-hickory-8f3.notion.site/ImageMaker-c6812dc21ffd4562b60acc04fd9260bb?pvs=4">ImageMaker 개발 노트</a>
+          <style>
+          .mark-highlight {
+            padding: 0.2em;
+            color: white;
+            font-weight: bold;
+          }
+
+          .yellow {
+            background-color: yellow;
+          }
+
+          .orange {
+            background-color: orange;
+          }
+          .green {
+            background-color: lightgreen;
+          }
+
+          .darkgreen {
+            background-color: darkgreen;
+          }
+
+          .blue {
+            background-color: lightblue;
+          }
+
+          .red {
+            background-color: lightcoral;
+          }
+          </style>
+
+  - title: Certificate # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: 정보처리기사
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: 한국산업인력공단
+        caption: 2021.11
+        # description: 2021년 대학 4학년 재학 중 정보처리기사를 취득했습니다.
+           
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+      
+        title: <img src="images/yagomImage.png"/> 야곰 아카데미 <br/>커리어 스타터
+        sub_title: iOS BootCamp
+        link: https://www.yagom-academy.kr/camp/career-starter
+        link_text: 야곰 아카데미 커리어 스타터
+        caption: 2022.08 - 2023.02 (6개월)
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+          '야곰 아카데미 커리어 스타터' 부트캠프를 참여하며 **iOS 개발의 기본적인 개념부터 심화적인 내용**까지 폭넓은 지식을 습득했습니다. 
+          <br/>
+          **네트워크와 데이터베이스** 처리에 대한 이해를 갖추었으며, 다양한 기술 스택과 프레임워크를 활용하는 방법을 배웠습니다. 
+          <br/>
+          더불어, **코드 작성에 대한 자신만의 철학**을 형성하고 팀원들과의 **원활한 협업 방법**을 익혔습니다. 
+          <br/>
+          이 부트캠프 경험이 앞으로의 개발 역량과 다른 개발자들과의 커뮤니케이션 향상에 큰 도움이 될 것이라 생각합니다.
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: <img src="images/yagomImage.png"/> 야곰 아카데미 <br/>코드 스타터 Reviewer
+        caption: 2022.12.19 - 2022.12.30 (2주)
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          **코드 리뷰어로 선정**되어 리뷰를 할 기회가 생겼는데 다른 사람들에게 **도움을 줄 수 있다는 경험**은 매우 유익했습니다.
+          <br/>
+          리뷰어로서의 피드백은 거의 믿는 경향이 있어 **말에 대한 책임감**을 느끼며 **정확하고 신중한 피드백**을 하기 위해
+          <br/>
+          **알고있다고 생각했던 부분도 더욱 확실하게** 알아보게 되어 제가 성장하게 되는 경험을 했습니다. 
+          <br/>
+          보람차면서도 더 나은 개발자로 **성장하는 기회**가 된 것 같아 앞으로도 기회가 있다면 **적극적으로** 하고 싶습니다.
+          <br/><br/>
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          <strong>숫자야구 프로젝트 리뷰 내역:</strong> <a href="https://github.com/yagom-academy/ios-number-baseball/pull/157">STEP1</a> <a href="https://github.com/yagom-academy/ios-number-baseball/pull/167">STEP2</a>
+          <br/>
+          <strong>묵찌빠 프로젝트 리뷰 내역:</strong> <a href="https://github.com/yagom-academy/ios-rock-paper-scissors/pull/179">STEP1</a> <a href="https://github.com/yagom-academy/ios-rock-paper-scissors/pull/187">STEP2</a>
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - layout: left
+        title: <img src="images/yagomImage.png"/> 야곰 아카데미 <br/>코드 스타터
+        link: https://www.yagom-academy.kr/camp/code-starter
+        link_text: 야곰 아카데미 코드 스타터
+        caption: 2022.05 - 2022.06 (1개월)
+        sub_title: iOS BootCamp
+        description: | # this will include new lines to allow paragraphs
+          Swift를 처음 접하게 되었을 때 **언어에 대한 깊은 이해**와 학습을 위해 야곰 코드스타터 캠프에 참여했습니다. 
+          <br/>
+          **공식문서 위주**로 언어의 **기본 개념부터 심화 내용까지** 꼼꼼하게 배우며, 문법과 특징을 철저히 익혔습니다. 
+          <br/>
+          캠프에서는 팀원과 이해하기 어려웠던 부분도 함께 공유하고 논의하는 시간을 가졌고,
+          <br/>
+          리뷰어들의 도움으로 더 깊은 수준의 스위프트 이해도를 얻게되는 시간이었습니다.
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
