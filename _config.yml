@@ -50,7 +50,8 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요, 저는 이정민이고 iOS 개발자입니다. iOS 앱을 만들어 사람들에게 도움이 되고자 노력하고 있습니다.
 
-  skills: <mark>UIKit</mark>, <mark>MVVM</mark>, <mark>REST API</mark>, <mark>RxSwift</mark>, <mark>Clean architecture</mark>
+  skills: <mark>UIKit</mark>, <mark>MVVM</mark>, <mark>REST API</mark>, <mark>RxSwift</mark>, <mark>Clean Architecture</mark>
+  
   hobbys: 피자 시켜먹기, 앱스토어 랭킹 뒤져보기
 
 content:
@@ -58,7 +59,23 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: Tempus
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    content:
+      - layout: top-middle
+        title: AI ImageMaker
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
